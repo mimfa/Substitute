@@ -28,6 +28,7 @@ namespace MiMFa.Gadget
                 string[] parr = addr.Split('\\');
                 cb_Languages.Items.Add(parr.Last());
             }
+            if(cb_Languages.Items.Count > 0) cb_Languages.SelectedIndex = 0;
             FillDic();
         }
 
@@ -73,6 +74,10 @@ namespace MiMFa.Gadget
 
         private void FillDic()
         {
+            if (!File.Exists(DicPath)) return;
+            //List<string> lsssss = File.ReadLines(DicPath).OrderByDescending(v => v.Length).ToList();
+            //File.WriteAllLines(DicPath, lsssss);
+            //lsssss.Clear();
             string[] pathParts = DicPath.Split('\\');
             string[] languages = pathParts.Last().Split('-');
             string pattern = @"([^\\][\$\^\|\!\-\.\*\+\?]|\\{1}[dDaAvzZbBwWsS]|\\{1}k\<(\W|\w)*\>|[^\\]\((\w|\W)*\)|[^\\]\{(\w|\W)*\}|[^\\]\[(\w|\W)*\])";

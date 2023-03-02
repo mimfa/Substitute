@@ -71,6 +71,10 @@
     <EmbeddedResource Include="Substitute.resx">
       <DependentUpon>Substitute.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Dictionaries\-Select Source-" />
+    <None Include="Dictionaries\English-Persian Arabic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,10 +88,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controls\" />
-    <Folder Include="Databases\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Sync.ico" />
   </ItemGroup>

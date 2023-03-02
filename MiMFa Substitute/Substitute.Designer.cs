@@ -217,7 +217,7 @@
             this.label_Right.Padding = new System.Windows.Forms.Padding(5);
             this.label_Right.Size = new System.Drawing.Size(295, 30);
             this.label_Right.TabIndex = 7;
-            this.label_Right.Text = "Languge";
+            this.label_Right.Text = "Destination";
             this.label_Right.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_Left
@@ -232,18 +232,18 @@
             this.label_Left.Padding = new System.Windows.Forms.Padding(5);
             this.label_Left.Size = new System.Drawing.Size(294, 30);
             this.label_Left.TabIndex = 8;
-            this.label_Left.Text = "Languge";
+            this.label_Left.Text = "Source";
             this.label_Left.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Translator
+            // Substitute
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 365);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Translator";
-            this.Text = "MiMFa Translator";
+            this.Name = "Substitute";
+            this.Text = "MiMFa Substitute";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
