@@ -1,5 +1,3 @@
-# Translator
-Regular-Expression-Based Translator
 <h1 align="center">
 	<a href="https://gadget.mimfa.net" target="_blank">
 		<img alt="MiMFa Gadget" width="20%" src="https://gadget.mimfa.net/product/Substitute/logo.png"/>
