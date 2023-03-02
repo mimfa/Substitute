@@ -71,7 +71,9 @@
     <EmbeddedResource Include="Substitute.resx">
       <DependentUpon>Substitute.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Dictionaries\-Select Source-" />
+    <None Include="Dictionaries\-Select Source-">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Dictionaries\English-Persian Arabic">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
